@@ -1,0 +1,13 @@
+START 
+varone [b1] ;
+vartwo b4] ;
+varone = 2 ;
+vartwo = 4 ;
+[s] ( varone < vartwo ) {
+    varone = 10 ;
+}
+[e] {
+    vartwo = 10 ;
+}
+varone = vartwo + 1 ;
+vartwo = varone ;

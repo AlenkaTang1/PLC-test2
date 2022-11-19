@@ -1,0 +1,14 @@
+START
+varone [b1 ; (incorrect keyword format)
+vartwo [b2] ;
+varone = 10; (should be a space between 10 and ;)
+vartwo = 20 ;
+[l] (varone < vartwo)  (should be a space between id and ) and missing {)
+    varone = varone - 1 ;
+}
+[s] ( varone == vartwo ) {
+    varone = 1 ;
+}
+[e] {
+    vartwooooo = 1 ; (id too long)
+}

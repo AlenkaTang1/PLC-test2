@@ -1,0 +1,10 @@
+START
+[l] (varone < vartwo { 
+    varone = varone - + 1 ; 
+}
+[s] ( varone == vartwo ) 
+    varone = 1 
+}
+[e] 
+    vartwo = 1 ;
+}
