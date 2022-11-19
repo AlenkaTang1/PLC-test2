@@ -308,7 +308,7 @@ class LEX:
 
 
 #first test file, no error
-file = open("/Users/tangalenka/PLC/test1.txt", "rt")
+file = open("test1.txt", "rt")
 data = file.read()
 lexs1 = data.split()
 tokenString1 = LEX(lexs1)
@@ -317,7 +317,7 @@ print(t1)
 test_1 = RDA(t1)
 test_1.start()
 #second test file, no error
-file = open("/Users/tangalenka/PLC/test2.txt", "rt")
+file = open("test2.txt", "rt")
 data = file.read()
 lexs2 = data.split()
 tokenString2 = LEX(lexs2)
@@ -326,7 +326,7 @@ print(t2)
 test_2 = RDA(t2)
 test_2.start()
 #test file, syntax error
-file = open("/Users/tangalenka/PLC/test4.txt", "rt")
+file = open("test4.txt", "rt")
 data = file.read()
 lexs4 = data.split()
 tokenString4 = LEX(lexs4)
@@ -335,7 +335,7 @@ print(t4)
 test_4 = RDA(t4)
 test_4.start()
 #test file, lexical error
-file = open("/Users/tangalenka/PLC/test3.txt", "rt")
+file = open("test3.txt", "rt")
 data = file.read()
 lexs3 = data.split()
 tokenString3 = LEX(lexs3)
