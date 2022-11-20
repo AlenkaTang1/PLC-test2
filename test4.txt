@@ -3,8 +3,8 @@ START
     varone = varone - + 1 ; 
 }
 [s] ( varone == vartwo ) 
-    varone = 1 
+    vartwo = 1 
 }
 [e] 
-    vartwo = 1 ;
+    varone = 1 ;
 }
