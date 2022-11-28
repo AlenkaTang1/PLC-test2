@@ -52,3 +52,5 @@ s--> 'START' <stmt>
 <bexpr> --> <bterm> {('*'|'/'|'%') <bterm>}
 <bterm> --> <bfactor> {('+'|'-') <bfactor>}
 <bfactor>--> 'id'|'int_lit'|'bool_lit'
+
+every rule set in this language conforms to the standard of an LL Grammar and there's no lefthand recursion. 
