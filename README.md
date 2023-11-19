@@ -1,4 +1,7 @@
 # PLC-test2
+creating a new programming language as well as the lexical and syntax compiler for it
+
+## language rules
 lexical rules (regular expression):
 keyword, loop: \[ l \]
 keyword, switch statement: \[ s \]
